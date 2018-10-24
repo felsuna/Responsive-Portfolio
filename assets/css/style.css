@@ -133,7 +133,7 @@ input[type=submit]:hover {
 
 /* Media queries */
 
-
+/* When screen reaches 960px or less */
 @media screen and (max-width: 960px) {
 #name {      
     margin-left: 20px;
@@ -161,10 +161,7 @@ input[type=submit]:hover {
     font-size: 10px;
     line-height: 15px;
     margin: 20px;
-    line-height: 20px;
-    margin-top: 30px;
     margin-bottom: 200px;
-    padding: 20px;
 }
 
 #footer {
@@ -172,13 +169,57 @@ input[type=submit]:hover {
 }
 }
 
-
+/* When screen reaches 768px or less */
 @media screen and (max-width: 768px) {
+.links {
+    position: absolute;
+    right: 20px;
+    top: 17px;
+    word-spacing: 20px;
+    font-size: 10px;
+    }
 
-
+.content {
+    width: 89%;
+    margin-right: 20px;
+    font-size: 10px;
 }
 
+#footer {
+    font-size: 8px;
+}
+
+/* When screen reaches 640px or less */
 @media screen and (max-width: 640px) {
+#name { 
+    clear: both;
+    position: fixed;     
+    font-size: 10px;
+    margin-left: 0px;
+    margin-right: 0px;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    border-bottom: 3px ridge #8ACC82;
+    text-align: center;
+}
+     
+.links {
+    top: 55px;
+    background: #40342F;
+    width: 100%;
+    right: 0px;
+    position: fixed;
+    padding: 5px;
+    text-align: center;
 
+}
+.content {
+    width: 89%;
+    margin-right: 20px;
+    margin-top: 95px;
+    font-size: 10px;
+}
 
+}
 }
