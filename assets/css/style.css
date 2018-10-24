@@ -222,9 +222,7 @@ input[type=submit]:hover {
 
 .content {
     width: 85%;
-    margin-top: 95px;
-    font-size: 10px;
-    float: left;
+    margin-top: 95px;    
 }
 
 }
