@@ -131,10 +131,10 @@ input[type=submit]:hover {
     text-align: center;
 }
 
-/* Media queries */
+/* Media queries*/
 
-/* When screen reaches 960px or less */
-@media screen and (max-width: 960px) {
+/* When screen reaches 980px or less */
+@media screen and (max-width: 980px) {
 #name {      
     margin-left: 20px;
     font-size: 10px;
@@ -156,8 +156,19 @@ input[type=submit]:hover {
     width: 50%;
   }
 
+.imgPort {
+    width: 300px;
+    height: 150px;
+    padding: 5px;
+}
+
+.one {
+    padding: 0px;
+    margin: 5px;
+}
+
 .content {
-    width: 65%;
+    width: 70%;
     font-size: 10px;
     line-height: 15px;
     margin: 20px;
@@ -183,6 +194,18 @@ input[type=submit]:hover {
     width: 89%;
     margin-right: 20px;
     font-size: 10px;
+}
+
+.imgPort {
+    width: 130%;
+    height: 100%;
+    padding: 5px;  
+}
+
+.one {
+    padding: 0px;
+    margin: 5px;
+    width: 130%;
 }
 
 #footer {
@@ -224,6 +247,5 @@ input[type=submit]:hover {
     width: 85%;
     margin-top: 95px;    
 }
-
 }
 }
