@@ -135,117 +135,127 @@ input[type=submit]:hover {
 
 /* When screen reaches 980px or less */
 @media screen and (max-width: 980px) {
-#name {      
-    margin-left: 20px;
-    font-size: 10px;
-}
-       
-.links {
-    position: absolute;
-    right: 20px;
-    top: 17px;
-    word-spacing: 20px;
-    font-size: 10px;
-}
+    #name {      
+        margin-left: 20px;
+        font-size: 15px;
+    }
+        
+    .links {
+        position: absolute;
+        right: 20px;
+        top: 30px;
+        word-spacing: 20px;
+        font-size: 15px;
+    }
 
-.contentTitle {
-    font-size: 10px;
-}
+    .contentTitle {
+        font-size: 15px;
+    }
 
-#imgdemo {
-    width: 50%;
-  }
+    #imgdemo {
+        width: 50%;
+    }
 
-.imgPort {
-    width: 300px;
-    height: 150px;
-    padding: 5px;
-}
+    .imgPort {
+        width: 300px;
+        height: 150px;
+        padding: 5px;
+    }
 
-.one {
-    padding: 0px;
-    margin: 5px;
-}
+    .one {
+        padding: 0px;
+        margin: 5px;
+    }
 
-.content {
-    width: 70%;
-    font-size: 10px;
-    line-height: 15px;
-    margin: 20px;
-    margin-bottom: 200px;
-}
+    .content {
+        width: 700px;
+        font-size: 12px;
+        line-height: 15px;
+        margin: 20px;
+        margin-bottom: 80px;
+    }
 
-#footer {
-    font-size: 8px;
-}
+    #footer {
+        font-size: 8px;
+    }
 }
 
 /* When screen reaches 768px or less */
 @media screen and (max-width: 768px) {
-.links {
-    position: absolute;
-    right: 20px;
-    top: 17px;
-    word-spacing: 20px;
-    font-size: 10px;
+    .links {
+        position: absolute;
+        right: 20px;
+        top: 30px;
+        word-spacing: 20px;
+        font-size: 15px;
+        }
+
+    .content {
+        width: 690px;
+        margin-right: 20px;
+        font-size: 12px;
     }
 
-.content {
-    width: 89%;
-    margin-right: 20px;
-    font-size: 10px;
-}
+    .imgPort {
+        width: 300px;
+        height: 150px;
+        padding: 5px;  
+    }
 
-.imgPort {
-    width: 130%;
-    height: 100%;
-    padding: 5px;  
-}
+    .one {
+        padding: 0px;
+        margin: 5px;
+        width: 300px;
+    }
 
-.one {
-    padding: 0px;
-    margin: 5px;
-    width: 130%;
-}
-
-#footer {
-    font-size: 8px;
+    #footer {
+        font-size: 8px;
+    }
 }
 
 /* When screen reaches 640px or less */
 @media screen and (max-width: 640px) {
-#name { 
-    clear: both;
-    position: fixed;     
-    font-size: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
-    top: 0px;
-    left: 0px;
-    right: 0px;
-    border-bottom: 3px ridge #8ACC82;
-    text-align: center;
-}
-     
-.links {
-    top: 55px;
-    background: #40342F;
-    width: 100%;
-    right: 0px;
-    position: fixed;
-    padding: 5px;
-    text-align: center;
+    #name { 
+        clear: both;
+        position: static;     
+        font-size: 15px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding-right: 205px;
+        padding-left: 210px;
+        border-radius: 0px;
+        text-align: center;
 
-}
+    }
+        
+    .links {
+        padding-top: 90px;
+        padding-bottom: 10px;
+        background: #40342F;
+        width: 100%;
+        right: 0px;
+        position: static;
+        text-align: center;
 
-#imgdemo {
-    width: 100%;
-    padding-bottom: 10px;
-  }
+    }
 
-.content {
-    width: 85%;
-    margin-top: 95px;    
-}
-}
+    .imgPort {
+        width: 100%;
+        height: 100%;
+        padding-bottom: 10px;
+        margin-left: 50px
+    }
+
+    .one {
+        width: 100%;
+        margin-left: 55px;
+    }
+
+    .content {
+        width: 560px;
+    
+    }
+    #footer {
+        position: static;
+    }
 }
